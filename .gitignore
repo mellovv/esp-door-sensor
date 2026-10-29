@@ -1,0 +1,19 @@
+.pio
+.vscode
+.idea
+*.local
+
+# C++ LSP / Clangd
+compile_commands.json
+.clangd/
+.cache/
+
+# Editor & OS files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Sensitive credentials
+include/secrets.h
